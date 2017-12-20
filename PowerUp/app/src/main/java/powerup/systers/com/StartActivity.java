@@ -62,8 +62,7 @@ public class StartActivity extends Activity {
                     drawable.setAlpha(200);
                     dialog.getWindow().setBackgroundDrawable(drawable);
                     dialog.show();
-                }
-                else {
+                } else {
                     startActivityForResult(new Intent(StartActivity.this, AvatarRoomActivity.class), 0);
                 }
             }
